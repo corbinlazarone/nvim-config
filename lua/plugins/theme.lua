@@ -1,12 +1,25 @@
+-- return {
+--   {
+--     "xero/miasma.nvim",
+--     priority = 1000,
+--   },
+--   {
+--     "LazyVim/LazyVim",
+--     opts = {
+--       colorscheme = "miasma",
+--     },
+--   },
+-- }
+
 return {
   {
-    "ribru17/bamboo.nvim",
+    "bjarneo/ethereal.nvim",
     priority = 1000,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "bamboo",
+      colorscheme = "ethereal",
     },
   },
 }
