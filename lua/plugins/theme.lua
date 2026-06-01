@@ -1,13 +1,13 @@
+--[[
+-- All themes come from https://github.com/basecamp/omarchy/tree/dev/themes
+--]]
 return {
-  {
-    "catppuccin/nvim",
-    name = "catppuccin",
-    priority = 1000,
-  },
+  { "neanias/everforest-nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "everforest",
+      background = "soft",
     },
   },
 }

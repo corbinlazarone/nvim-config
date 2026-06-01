@@ -5,7 +5,7 @@ return {
   opts = function(_, opts)
     table.insert(opts.sections.lualine_x, {
       function()
-        return "😄"
+        return "tHiS iS cOrBiN's sEtUp"
       end,
     })
   end,
