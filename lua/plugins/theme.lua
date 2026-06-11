@@ -2,12 +2,14 @@
 -- All themes come from https://github.com/basecamp/omarchy/tree/dev/themes
 --]]
 return {
-  { "neanias/everforest-nvim" },
+  {
+    "ribru17/bamboo.nvim",
+    priority = 1000,
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
-      background = "soft",
+      colorscheme = "bamboo",
     },
   },
 }
