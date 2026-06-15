@@ -12,3 +12,8 @@ vim.api.nvim_create_autocmd("BufWritePre", {
 })
 
 vim.opt.relativenumber = false
+
+-- netrw configuration
+vim.g.netrw_liststyle = 3 -- tree-style listing
+vim.g.netrw_winsize = 25 -- explorer takes 25% width when split
+vim.g.netrw_browse_split = 0 -- open files in the same window
