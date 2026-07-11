@@ -60,10 +60,10 @@ return {
   -- Picking via <leader>uC only lasts for the current session. To persist a
   -- choice, uncomment this block and set the name string of the theme you want.
   --
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = {
-  --     colorscheme = "kanagawa",
-  --   },
-  -- },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "",
+    },
+  },
 }
