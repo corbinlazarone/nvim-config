@@ -42,7 +42,7 @@ return {
 
   -- Oxocarbon — IBM Carbon-inspired, deep and minimal
   -- name: "oxocarbon"
-  { "nyoom-engineering/oxocarbon.nvim" },
+  -- { "nyoom-engineering/oxocarbon.nvim" },
 
   -- Melange — warm, cozy, low-saturation (dark + light variants)
   -- name: "melange"
@@ -56,14 +56,19 @@ return {
   -- name: "monokai-pro"
   { "loctvl842/monokai-pro.nvim" },
 
+  -- vscode dark
+  { "Mofiqul/vscode.nvim" },
+
   -- ── Set your permanent default here ──────────────────────────────
   -- Picking via <leader>uC only lasts for the current session. To persist a
   -- choice, uncomment this block and set the name string of the theme you want.
   --
   {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "quiet",
-    },
+    "Mofiqul/vscode.nvim",
+    priority = 1000,
+    config = function()
+      vim.o.background = "dark"
+      vim.cmd.colorscheme("vscode")
+    end,
   },
 }
